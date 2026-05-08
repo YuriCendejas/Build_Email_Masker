@@ -30,3 +30,17 @@ Waiting:7. maskEmail("info@test.dev") should return "i**o@test.dev".
 Waiting:8. maskEmail("user@domain.org") should return "u**r@domain.org".
 Waiting:9. Your maskEmail should produce the correct result.
 Waiting:10. You should log the output of calling maskEmail with email as argument.
+
+
+
+<!--
+Passed:1. You should define a function named maskEmail.
+Passed:2. The maskEmail function should take a string, email as an argument.
+Passed:3. Outside the function, you should have an email variable.
+Passed:4. You should assign a valid email address to your email variable.
+Passed:5. maskEmail("apple.pie@example.com") should return "a*******e@example.com".
+Passed:6. maskEmail("freecodecamp@example.com") should return "f**********p@example.com".
+Passed:7. maskEmail("info@test.dev") should return "i**o@test.dev".
+Passed:8. maskEmail("user@domain.org") should return "u**r@domain.org".
+Passed:9. Your maskEmail should produce the correct result.
+Passed:10. You should log the output of calling maskEmail with email as argument.->

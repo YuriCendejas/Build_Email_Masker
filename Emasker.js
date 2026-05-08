@@ -12,7 +12,7 @@ const last = username[username.length -1]; // last letter
 
 // creating the stars: (astricks **)
 const masked = first +"*".repeat(username.length - 2 ) + last;  // why "2" ? bc it keeps the first and last letter , the middle will get masked.
-return masked + domian; 
+return masked + domain; 
 } 
 
 /*the domain too bc thats the "@ " like we wanna hide
